@@ -465,7 +465,7 @@ class BaseBertEstimator(BaseEstimator):
         self.num_labels = state['num_labels']
 #         self.do_lower_case = state['do_lower_case']
 #         self.bert_config_json = state['bert_config_json']
-        self.bert_vocab = state['bert_vocab']
+#         self.bert_vocab = state['bert_vocab']
         self.from_tf = False
         self.num_labels = state['num_labels']
         self.input_text_pairs = state['input_text_pairs']
